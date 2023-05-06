@@ -6,20 +6,20 @@ h1{
     color:rgb(242, 242, 218);
     font-family: 'Codystar', cursive;
     font-size: 100px;
-    margin: 20px;
+    margin: 1px;
 
 }
 
 h2{
     font-family: 'Over the Rainbow', cursive;
     color: rgb(9, 82, 32);
-    margin: 20px;
+    margin: 1px;
     font-size: 50px;
 }
 
 p{
     color: rgb(230, 230, 230);
-    margin: 20px;
+    margin: 1px;
     font-size: 26px;
 }
 
