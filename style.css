@@ -1,25 +1,57 @@
 body{
-    background-color: rgb(141, 111, 172);
+    background-color: rgb(50, 187, 105);
 }
 
 h1{
-    color:yellow;
+    color:rgb(242, 242, 218);
     font-family: 'Codystar', cursive;
     font-size: 100px;
+    margin: 20px;
 
 }
 
 h2{
     font-family: 'Over the Rainbow', cursive;
-    color: blueviolet;
+    color: rgb(9, 82, 32);
+    margin: 20px;
+    font-size: 50px;
 }
 
 p{
-    color: red;
+    color: rgb(230, 230, 230);
+    margin: 20px;
+    font-size: 26px;
 }
 
 main video{
-    max-width: 50vw;
+    width: 100%;
     aspect-ratio: 16/9;
     height: auto;
+}
+
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ko{
+    max-width: 23.36vw;
+    /*max-width: 24.5vw*/
+    
+}
+
+.ko1{
+    max-width: 23.36vw;
+    /*max-width: 24.5vw*/
+}
+
+
+.ko2{
+    max-width: 23.36vw;
+    /*max-width: 24.5vw*/
+}
+
+.ko3{
+    max-width: 23.36vw;
+    /*max-width: 24.5vw*/
 }
