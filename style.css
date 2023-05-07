@@ -5,8 +5,9 @@ body{
 h1{
     color:rgb(242, 242, 218);
     font-family: 'Codystar', cursive;
-    font-size: 100px;
+    font-size: 80px;
     margin: 1px;
+    padding: 1vw 0 0 1.6vw;
 
 }
 
@@ -14,44 +15,101 @@ h2{
     font-family: 'Over the Rainbow', cursive;
     color: rgb(9, 82, 32);
     margin: 1px;
-    font-size: 50px;
+    font-size: 30px;
+    padding: 0 0 0 1.6vw;
 }
 
 p{
     color: rgb(230, 230, 230);
     margin: 1px;
-    font-size: 26px;
+    font-size: 16px;
+    padding: 0 0 0 2vw;
+}
+
+.col_v{
+    margin: 0 2vw 0 0;
 }
 
 main video{
-    width: 100%;
+    width: 90%;
     aspect-ratio: 16/9;
     height: auto;
+    margin: 6vw 0 4vw 5vw;
+    display: flex;
+    justify-content: center;
 }
 
-.grid_1-1{
+.grid_1-1-1-1{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr  1fr 1fr;
 }
 
 .ko{
-    max-width: 23.36vw;
-    /*max-width: 24.5vw*/
+    max-width: 23.3vw;
+    padding-left: 1vw;
     
 }
 
 .ko1{
-    max-width: 23.36vw;
-    /*max-width: 24.5vw*/
+    max-width: 23.3vw;
+    padding-left: 0.6vw;
+  
+
 }
 
 
 .ko2{
-    max-width: 23.36vw;
-    /*max-width: 24.5vw*/
+    max-width: 23.3vw;
+    padding-left: 0.3vw;
+   
+   
 }
 
 .ko3{
-    max-width: 23.36vw;
-    /*max-width: 24.5vw*/
+    max-width: 23.3vw;
+    padding-right: 1vw;
+  
+}
+
+
+@media (min-width:1200px){
+
+    .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+ 
+
+ 
+}
+
+@media (max-width:400px){
+
+    
+    .ko{
+        max-width: 23.3vw;
+  
+        
+    }
+    
+    .ko1{
+        max-width: 23.3vw;
+     
+    
+    }
+    
+    
+    .ko2{
+        max-width: 23.3vw;
+      
+       
+    }
+    
+    .ko3{
+        max-width: 23.3vw;
+      
+    }
+
+ 
 }
