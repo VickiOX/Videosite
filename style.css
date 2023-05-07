@@ -2,16 +2,26 @@ body{
     background-color: rgb(50, 187, 105);
 }
 
-li,a{
-    font-family: 'Over the Rainbow', cursive;
+li, a{
+    font-family:'Over the Rainbow', cursive;
     color: rgb(9, 82, 32);
-    font-size: 20px;
+    font-size: 20.9px;
     text-decoration: none;
 }
 
+.nav_links{
+    list-style: none;
+}
+
+.nav_links, li{
+    display: inline-block;
+    padding: 0 16px;
+}
+
+
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 30px 10%;
 }
@@ -37,15 +47,36 @@ h1{
     top:80px;
    
 }
+
+
 .box{
     width: 400px;
     height: 200px;
     background-color: rgba(52, 52, 52, 0.816);
     margin: 29px;
     position: absolute;
-    top: 23%;
+    top: 38%;
     left: -1%;
 }
+
+.box1{
+    width: 430px;
+    height: 220px;
+    background-color: rgba(52, 52, 52, 0.816);
+    margin: 29px;
+    top: 38%;
+    left: -1%;
+}
+
+.box2{
+    width: 430px;
+    height: 230px;
+    background-color: rgba(52, 52, 52, 0.816);
+    margin: 29px;
+    top: 38%;
+    left: -1%;
+}
+
 
 h2{
     font-family: 'Over the Rainbow', cursive;
@@ -53,6 +84,13 @@ h2{
     margin: 1px;
     font-size: 30px;
     padding: 0 0 0 1.6vw;
+}
+
+h3{
+    font-family: 'Over the Rainbow', cursive;
+    color: rgb(9, 82, 32);
+    margin: 1px;
+    font-size: 20px;
 }
 
 p{
@@ -75,34 +113,43 @@ main video{
     justify-content: center;
 }
 
+iframe{
+    width: 90%;
+    aspect-ratio: 16/9;
+    height: auto;
+    margin: 6vw 0 4vw 5vw;
+    display: flex;
+    justify-content: center;
+}
+
 .grid_1-1-1-1{
     display: grid;
     grid-template-columns: 1fr 1fr  1fr 1fr;
 }
 
 .ko{
-    max-width: 23.3vw;
+    max-height: 22.5vw;
     padding-left: 1vw;
     
 }
 
 .ko1{
-    max-width: 23.3vw;
-    padding-left: 0.6vw;
+    max-height: 22.5vw;
+    padding-left: 1.2vw;
   
 
 }
 
 
 .ko2{
-    max-width: 23.3vw;
+    max-height: 22.5vw;
     padding-left: 0.3vw;
    
    
 }
 
 .ko3{
-    max-width: 23.3vw;
+    max-height: 22.5vw;
     padding-right: 1vw;
     position: relative;
   
@@ -114,6 +161,14 @@ main video{
     margin:auto; 
 }
 
+.sb{
+    max-width: 400px;
+    display: block;
+    margin:auto; 
+    padding: 20px;
+
+}
+
 @media (min-width:1200px){
 
     .grid_1-1{
@@ -121,38 +176,21 @@ main video{
         grid-template-columns: 1fr 1fr;
     }
 
+    p{
+        font-size: 24px;
+    }
+
 h2, p{
  padding: 2px;
+}
+
+a{
+    font-size: 30px;
 }
  
 }
 
 @media (max-width:400px){
-
-    
-    .ko{
-        max-width: 23.3vw;
-  
-        
-    }
-    
-    .ko1{
-        max-width: 23.3vw;
-     
-    
-    }
-    
-    
-    .ko2{
-        max-width: 23.3vw;
-      
-       
-    }
-    
-    .ko3{
-        max-width: 23.3vw;
-      
-    }
 
     .bg_poster{
         max-width: 400px;
